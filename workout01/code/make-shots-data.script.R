@@ -1,14 +1,14 @@
 * Title: make-shots-data-script.R
 * Description: This script is about data preparation to create a csv file.
 * Input: andre-iguodala.csv, draymond-green.csv, kevin-durant.csv, klay-thompson.csv, stephen-curry.csv
-* Output: andre-iguodala-summary, draymond-green-summary, kevin-durnat-summary, klay-thompson-summary, shots-data-summary, stephen-curry-summary
+* Output: andre-iguodala-summary, draymond-green-summary, kevin-durnat-summary, klay-thompson-summary, stephen-curry-summary
 
-
-library(dplyr)
 library(plyr)
+library(dplyr)
+
 
 getwd()
-setwd('/Users/east/desktop/hw-stat133/workout01/code')
+setwd('/Users/east/Desktop/hw-stat133/workout01/code')
 
 colClass = c("character", "character", "integer", "integer", "integer", "integer", "factor", 
              "factor", "factor", "integer", "character", "integer", "integer" )
